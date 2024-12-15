@@ -1,0 +1,19 @@
+{
+    "password": "{{PASSWORD}}",
+    "action": "addTask",
+    "data": {
+        "preset": "default",
+        "configPreset": "default",
+        "parsers": [
+            [
+                "SE::Google",
+                "default"
+            ]
+        ],
+        "queriesFrom": "text",
+        "queries": [
+            "test",
+            "bla-bla"
+        ]
+    }
+}

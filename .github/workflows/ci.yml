@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1' # Specify your PHP version
+          extensions: mbstring, dom, json # Add any other necessary extensions
+
+      - name: Install dependencies
+        run: composer install --prefer-dist --no-progress --no-suggest
+
+      - name: Run tests
+        run: ./vendor/bin/phpunit --testdox
+
+      - name: Run PHP compability test
+        run: ./vendor/bin/phpcs --config-set installed_paths vendor/phpcompatibility/php-compatibility && ./vendor/bin/phpcs --standard=PHPCompatibility --runtime-set testVersion 8.1 ./src
+
+      - name: Run PSR compability test
+        run: ./vendor/bin/phpcs --standard=PSR12 --exclude=Generic.Files.LineLength ./src ./tests

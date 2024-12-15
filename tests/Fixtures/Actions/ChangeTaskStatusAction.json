@@ -1,0 +1,8 @@
+{
+    "password": "{{PASSWORD}}",
+    "action": "changeTaskStatus",
+    "data": {
+        "taskUid": 181,
+        "toStatus": "starting"
+    }
+}

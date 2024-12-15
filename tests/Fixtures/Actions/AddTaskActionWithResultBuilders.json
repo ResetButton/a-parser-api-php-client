@@ -1,0 +1,45 @@
+{
+  "password": "{{PASSWORD}}",
+  "action": "addTask",
+  "data": {
+    "preset": "default",
+    "configPreset": "default",
+    "parsers": [
+      [
+        "SE::Google",
+        "default"
+      ]
+    ],
+    "resultsBuilders": [
+      {
+        "source": [
+          0,
+          "query"
+        ],
+        "type": "extractTopDomain",
+        "to": "query"
+      },
+      {
+        "source": [
+          0,
+          [
+            "ads",
+            "link"
+          ]
+        ],
+        "type": "regex",
+        "array": "ads",
+        "regex": "ddd",
+        "regexType": "sg",
+        "to": [
+          "link"
+        ]
+      }
+    ],
+    "queriesFrom": "text",
+    "queries": [
+        "test",
+        "bla-bla"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "password": "{{PASSWORD}}",
+    "action": "getProxies",
+    "data": {
+        "checkers": [
+            "Elite proxies",
+            "free proxies"
+        ]
+    }
+}
