@@ -1,0 +1,13 @@
+{
+    "password": "{{PASSWORD}}",
+    "action": "addTask",
+    "data": {
+        "preset": "savedPreset",
+        "configPreset": "default",
+        "queriesFrom": "text",
+        "queries": [
+            "test",
+            "bla-bla"
+        ]
+    }
+}

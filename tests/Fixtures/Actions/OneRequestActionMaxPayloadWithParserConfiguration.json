@@ -1,0 +1,28 @@
+{
+    "password": "{{PASSWORD}}",
+    "action": "oneRequest",
+    "data": {
+        "query": "test",
+        "parser": "SE::Google",
+        "configPreset": "100Threads",
+        "preset": "Pages Count use Proxy",
+        "rawResults": true,
+        "doLog": true,
+        "needData": true,
+        "options" : [
+            {
+                "type": "override",
+                "id": "pagecount",
+                "value": 1
+            },
+            {
+                "type": "options",
+                "id": "parseLevel",
+                "value": 20,
+                "additional": {
+                    "limit": "0"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "password": "{{PASSWORD}}",
+    "action": "oneRequest",
+    "data": {
+        "query": "test",
+        "parser": "SE::Google",
+        "configPreset": "default",
+        "preset": "Pages Count use Proxy"
+    }
+}

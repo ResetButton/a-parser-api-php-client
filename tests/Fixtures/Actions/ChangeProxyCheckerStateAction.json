@@ -1,0 +1,8 @@
+{
+    "password": "{{PASSWORD}}",
+    "action": "changeProxyCheckerState",
+    "data": {
+        "checker": "Elite proxies",
+        "state": true
+    }
+}

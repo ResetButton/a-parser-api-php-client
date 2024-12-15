@@ -1,0 +1,19 @@
+{
+    "password": "{{PASSWORD}}",
+    "action": "addTask",
+    "data": {
+        "preset": "default",
+        "configPreset": "default",
+        "parsers": [
+            [
+                "SE::Google",
+                "default"
+            ]
+        ],
+        "queriesFrom": "file",
+        "queriesFile": [
+            "queries/file1.txt",
+            "queries/file2.txt"
+        ]
+    }
+}

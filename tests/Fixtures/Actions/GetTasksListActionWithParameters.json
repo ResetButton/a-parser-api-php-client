@@ -1,0 +1,7 @@
+{
+    "password": "{{PASSWORD}}",
+    "action": "getTasksList",
+    "data": {
+        "completed": true
+    }
+}

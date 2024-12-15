@@ -1,0 +1,30 @@
+{
+    "success": 1,
+    "data": {
+        "status": "completed",
+        "stats": "<b>Overall stats</b><br>Runtime: 0:01:26<br>HTTP requests: 0<br><br><b>1. Net::HTTP</b><br>Queries done: 133<br>Successful queries: 131<br>Proxies used: 0 (per query)<br>Retries used: 1 (per query)<br>HTTP requests: 0 (per query)",
+        "state": {
+            "totalFail": 2,
+            "lastTotalFail": 0,
+            "totalWaitProxyThreads": 0,
+            "minimized": 0,
+            "queriesDoneCount": 133,
+            "avgSpeed": 92,
+            "activeThreads": 0,
+            "startTime": 1730464864,
+            "changeTime": 1730464950,
+            "queriesCount": 133,
+            "logExists": 0,
+            "runTime": 86,
+            "requests": 0,
+            "uniqueResultsCount": "none",
+            "addTime": 1730464862,
+            "additionalCount": 0,
+            "queriesDoneCountAtStart": 0,
+            "lastQuery": "https://asb-drives.eu/equipment/freq/omron/mx2/5193/",
+            "curSpeed": 64,
+            "started": 1,
+            "resultsCount": 133
+        }
+    }
+}

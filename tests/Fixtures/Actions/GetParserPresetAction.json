@@ -1,0 +1,8 @@
+{
+    "password": "{{PASSWORD}}",
+    "action": "getParserPreset",
+    "data": {
+        "parser": "SE::Google",
+        "preset": "default"
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "password": "{{PASSWORD}}",
+  "action": "addTask",
+  "data": {
+    "preset": "default",
+    "configPreset": "default",
+    "parsers": [
+      [
+        "SE::Google",
+        "default"
+      ]
+    ],
+    "queryBuilders": [
+      {
+        "source": "query",
+        "type": "stringSplit",
+        "separator": "|",
+        "to": [
+          "query",
+          "coord"
+        ]
+      },
+      {
+        "source": "query",
+        "type": "!",
+        "to": "query"
+      }
+    ],
+    "queriesFrom": "text",
+    "queries": [
+        "test",
+        "bla-bla"
+    ]
+  }
+}

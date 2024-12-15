@@ -1,0 +1,11 @@
+{
+    "password": "{{PASSWORD}}",
+    "action": "getTaskState",
+    "data": {
+        "taskUid": [
+            22,
+            23,
+            31
+        ]
+    }
+}

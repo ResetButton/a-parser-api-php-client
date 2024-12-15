@@ -1,0 +1,7 @@
+{
+    "password": "{{PASSWORD}}",
+    "action": "deleteTaskResultsFile",
+    "data": {
+        "taskUid": 181
+    }
+}

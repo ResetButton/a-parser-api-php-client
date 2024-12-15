@@ -1,0 +1,28 @@
+{
+    "password": "{{PASSWORD}}",
+    "action": "addTask",
+    "data": {
+        "preset": "default",
+        "configPreset": "default",
+        "parsers": [
+          [
+            "SE::Google",
+            "default"
+          ],
+          [
+            "SE::Bing",
+            "custom",
+            {
+              "type": "override",
+              "id": "proxyretries",
+              "value": "10"
+            }
+          ]
+        ],
+        "queriesFrom": "text",
+        "queries": [
+            "test",
+            "bla-bla"
+        ]
+    }
+}

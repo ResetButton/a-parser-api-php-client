@@ -1,0 +1,25 @@
+{
+    "password": "{{PASSWORD}}",
+    "action": "addTask",
+    "data": {
+        "preset": "default",
+        "configPreset": "default",
+        "parsers": [
+            [
+                "SE::Google",
+                "default"
+            ]
+        ],
+        "resultsFileName": "output1.txt",
+        "resultsFormat": "$query;$serp.totalcount",
+        "resultsUnique": "string",
+        "saveFailedQueries": true,
+        "uniqueQueries": true,
+
+        "queriesFrom": "text",
+        "queries": [
+            "test",
+            "bla-bla"
+        ]
+    }
+}
