@@ -7,7 +7,7 @@ This A-parser PHP API library provides convenient access to the [A-Parser HTTP A
 
 ## Installation
 ```shell 
-composer require reset-button/a-parser-php-client
+composer require reset-button/a-parser-api-php-client
 ``` 
 
 ## Quickstart

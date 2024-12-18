@@ -1,8 +1,7 @@
 {
-    "name": "reset-button/a-parser-php-client",
+    "name": "reset-button/a-parser-api-php-client",
     "description": "PHP client for A-Parser API",
     "type": "library",
-    "version": "1.0.0-RC1",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -20,7 +19,7 @@
             "email": "counterfate@gmail.com"
         }
     ],
-    "minimum-stability": "RC",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "php" : "^8.1",
@@ -31,6 +30,6 @@
         "squizlabs/php_codesniffer": "^3.11",
         "phpcompatibility/php-compatibility": "^9.3"
     },
-    "homepage": "https://github.com/reset-button/a-parser-php-client",
+    "homepage": "https://github.com/reset-button/a-parser-api-php-client",
     "keywords": ["a-parser", "php", "client", "api"]
 }
