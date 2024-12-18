@@ -1,0 +1,7 @@
+{
+    "password": "{{PASSWORD}}",
+    "action": "getTaskState",
+    "data": {
+        "taskUid": 181
+    }
+}

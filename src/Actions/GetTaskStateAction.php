@@ -6,7 +6,11 @@ class GetTaskStateAction extends Action
 {
     public const NAME = "getTaskState";
 
-    public function __construct(array $ids)
+    /**
+    * @param int|int[] $ids
+    */
+
+    public function __construct(int|array $ids)
     {
         $this->data = ['taskUid' => $ids];
     }
